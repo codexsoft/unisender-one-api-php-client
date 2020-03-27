@@ -1,0 +1,23 @@
+{
+    "name": "codexsoft/unisender-one-api-php-client",
+    "description": "Unisender One ( https://www.unisender.com/en/features/unione/ ) API PHP client",
+    "type": "library",
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitriy V Kozubskiy",
+            "email": "kozubsky@inbox.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "CodexSoft\\UnisenderOneApiSdk\\": "src/"
+        }
+    }
+}
